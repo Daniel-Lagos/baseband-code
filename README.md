@@ -11,8 +11,8 @@ This project is developed in communications subject
 
 - **[Sergio Quintana](https://github.com/Sergio1599)** 🧑🏻💻
     - [![Follow on Github](https://img.shields.io/github/followers/Sergio1599.svg?style=social&label=Follow)](https://github.com/Sergio1599)
-    - [![Twitter Follow](https://img.shields.io/twitter/follow/Sergio.svg?style=social)](https://twitter.com/AlejoQ_15)
-    - [![Instagram Follow](https://img.shields.io/static/v1?label=Follow&message=Instagram&color=blue&logo=instagram)](https://twitter.com/AlejoQ_15)
+    - [![Twitter Follow](https://img.shields.io/twitter/follow/AlejoQ_15.svg?style=social)](https://twitter.com/AlejoQ_15)
+    - [![Instagram Follow](https://img.shields.io/static/v1?label=Follow&message=Instagram&color=blue&logo=instagram)](https://www.instagram.com/s_alejandro_15/)
 
 ---
 
