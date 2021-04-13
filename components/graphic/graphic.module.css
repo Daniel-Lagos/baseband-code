@@ -1,0 +1,14 @@
+.graphic{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.picture-graphic{
+    width: 400px;
+    height: 450px;
+    border-color: black;
+}
