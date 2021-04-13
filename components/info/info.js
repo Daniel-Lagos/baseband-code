@@ -12,11 +12,13 @@ const Info = ({}) => {
             <div>
                 <label className={styles.text}>Convertido a binario:</label>
             </div>
-            <div>
-                <input className={styles.input} type="text" name="caracter"/>
+            <div className={styles.input}>
+                <div>
+                    <input type="text" name="caracter"/>
+                </div>
             </div>
-            <div>
-                <p className={styles.text}>010001011</p>
+            <div className={styles.text}>
+                <p>010001011</p>
             </div>
             <div>
                 <button className={styles.button}>Calcular</button>
