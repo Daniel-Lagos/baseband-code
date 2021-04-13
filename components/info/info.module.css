@@ -1,18 +1,41 @@
 .info {
     display: grid;
-    grid-template-columns:  2fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-columns:  1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     margin-top: 30px;
-    font-size: 22px;
+    font-size: 30px;
     justify-items: center;
     grid-gap: 0.7rem;
 }
 
-.input{
-    display: block;
-    font-size: 1rem;
-    color: #2a2a2a;
-    border-radius: 5px;
-    border-color: #0070f3;
+.text{
+    size: 30px;
+    color: #3D5A80;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
 }
 
+.input{
+    font-size: 1rem;
+    color: #3D5A80;
+    border-radius: 5px;
+    border-color: #000000;
+    padding: 8px;
+    background: #E0FBFC;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.button{
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #E0FBFC;
+    background-color: #293241;
+    border: 2px solid #293241;
+}
+
+.button:hover{
+    background-color: #3D5A80;
+    transition-duration: 1s;
+}
