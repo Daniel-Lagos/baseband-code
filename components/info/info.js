@@ -1,30 +1,26 @@
-import styles from './info.module.css';
+import Styles from './info.module.css';
 import React from 'react';
 
 
-const Info = ({}) => {
+const Info = () => {
 
-    return (<div className={styles.info}>
-            <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet"/>
-            <div>
-                <label className={styles.text}>Ingrese el caracter:</label>
-            </div>
-            <div>
-                <label className={styles.text}>Convertido a binario:</label>
-            </div>
-            <div className={styles.input}>
-                <div>
-                    <input type="text" name="caracter"/>
-                </div>
-            </div>
-            <div className={styles.text}>
-                <p>010001011</p>
-            </div>
-            <div>
-                <button className={styles.button}>Calcular</button>
-            </div>
+  return (<div className={Styles.info}>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap"
+        rel="stylesheet"/>
+      <div className={Styles.inputContent}>
+        <div className={Styles.input}>
+          <label className={Styles.text}>Ingrese el caracter:</label>
+          <input type="text" name="caracter" placeholder={'Digita un caracter'}/>
         </div>
-    );
+        <div className={Styles.input}>
+          <label className={Styles.text}>Convertido a binario:</label>
+          <label className={Styles.text}>010001011</label>
+        </div>
+      </div>
+      <button className={Styles.button}>Calcular</button>
+    </div>
+  );
 };
 
 export default Info;
