@@ -31,11 +31,11 @@ const Footer = ({}) => {
                                 <Link href={"https://github.com/Daniel-Lagos01"}><a title={'GitHub'}>{gitHub}</a></Link>
                             </div>
                             <div className={styles.instagram}>
-                                <Link href={"https://www.instagram.com/s_alejandro_15/"}><a
+                                <Link href={"https://www.instagram.com/daniel_lagos01/"}><a
                                     title={'Instagram'}>{instagram}</a></Link>
                             </div>
                             <div className={styles.linkedin}>
-                                <Link href={"https://www.linkedin.com/in/sergio-quintana-926566207/"}><a
+                                <Link href={"https://www.linkedin.com/in/daniel-lagos-aa4652204/"}><a
                                     title={'LinkedIn'}>{linkedin}</a></Link>
                             </div>
                         </div>
